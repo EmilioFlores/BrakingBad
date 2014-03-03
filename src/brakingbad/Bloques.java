@@ -6,10 +6,17 @@
 
 package brakingbad;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Emilio
  */
+
 public class Bloques {
+    
+    private char tipo;
+    private ImageIcon imagen[];
+    private Animacion animacionFinal;
     
 }
