@@ -17,6 +17,9 @@ public class BrakingBad {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        BrakingBadClass juego = new BrakingBadClass();
+        juego.setVisible(true); 
+         juego.setDefaultCloseOperation(juego.EXIT_ON_CLOSE);
     }
     
 }
